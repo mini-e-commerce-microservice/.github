@@ -1,5 +1,5 @@
 ***Mini E-Commerce MicroService***:
-Proyek Mini E-Commerce Microservice ini dirancang untuk mendemonstrasikan platform e-commerce yang terukur dan modular menggunakan arsitektur layanan mikro. Ini mencakup fungsi inti seperti manajemen pengguna, katalog produk, pemrosesan pesanan, integrasi pembayaran, dan layanan notifikasi. Setiap layanan dapat diterapkan secara independen dan berkomunikasi dengan layanan lain melalui API yang terdefinisi dengan baik. Proyek ini menggunakan ***choreography*** untuk interaksi antar layanan, di mana setiap layanan beroperasi secara mandiri dan berkomunikasi melalui event yang dipublikasikan dan diterima, mengurangi ketergantungan langsung antara layanan.
+Proyek Mini E-Commerce Microservice ini dirancang untuk mendemonstrasikan platform e-commerce yang terukur dan modular menggunakan arsitektur layanan mikro. Ini mencakup fungsi inti seperti manajemen pengguna, katalog produk, pemrosesan pesanan, integrasi pembayaran, dan layanan notifikasi. Proyek ini menggunakan ***choreography*** untuk interaksi antar layanan, di mana setiap layanan beroperasi secara mandiri dan berkomunikasi melalui event yang dipublikasikan dan diterima, mengurangi ketergantungan langsung antara layanan.
 
 ## Service
 1. User Service
