@@ -1,6 +1,6 @@
 # Mini E-Commerce MicroService
 
-This Mini E-Commerce MicroService project is designed to demonstrate a scalable and modular e-commerce platform using microservices architecture. It includes core functions such as user management, product catalog, order processing, payment integration, and notification services. The project uses **choreography** for inter-service interactions, where each service operates independently and communicates through events that are published and consumed, reducing direct dependencies between services. using terraform infra as code, using docker for container, and using debezium for cdc(change data capture)
+This Mini E-Commerce MicroService project is designed to demonstrate a scalable and modular e-commerce platform using microservices architecture. It includes core functions such as user management, product catalog, order processing, payment integration, and notification services. The project uses **choreography** for inter-service interactions, where each service operates independently and communicates through events that are published and consumed, reducing direct dependencies between services. using terraform infra as code, using docker for container, and using debezium for cdc(change data capture). implement distributed observability
 
 ## Services
 
